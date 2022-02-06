@@ -46,3 +46,20 @@
     position: absolute;
     z-index: 2;
 }
+
+.sun{
+    width: 100px;
+    position: absolute;
+}
+.bird-1{
+    width: 100px;
+    position: absolute;
+    z-index: 3;
+}
+.bird-2{
+    width: 100px;
+    position: absolute;
+    z-index: 3;
+    transform: scaleX(-1);
+    left: 250px;
+}
