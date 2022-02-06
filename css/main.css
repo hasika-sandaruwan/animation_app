@@ -30,3 +30,19 @@
     left: 350px;
     z-index: 0;
 }
+
+.cloud-1{
+    height: 300px;
+    position: absolute;
+    z-index: 2;
+}
+.cloud-2{
+    height: 250px;
+    position: absolute;
+    z-index: 2;
+}
+.cloud-3{
+    height: 280px;
+    position: absolute;
+    z-index: 2;
+}
