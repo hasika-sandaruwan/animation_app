@@ -80,3 +80,17 @@
     border: 5px dashed white;
     width: 100vw;
 }
+.vehicle-1{
+    position: absolute;
+    width: 150px;
+}
+.vehicle-2{
+    position: absolute;
+    width: 250px;
+}
+
+.vehicle-3{
+    position: absolute;
+    width: 250px;
+    transform: scaleX(-1);
+}
