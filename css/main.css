@@ -38,7 +38,7 @@
 .cloud-1{
     height: 300px;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
     right: -350px;
     top: -50px;
     animation: a-cloud-1 10s infinite linear;
@@ -53,11 +53,24 @@
     height: 250px;
     position: absolute;
     z-index: 2;
+    animation: a-cloud-2 20s infinite linear;
+    right: -600px;
+}
+@keyframes a-cloud-2 {
+    from{right: -600px}
+    to{right: 1400px}
 }
 .cloud-3{
     height: 280px;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
+    animation: a-cloud-3 30s infinite linear;
+    right: -600px;
+}
+
+@keyframes a-cloud-3 {
+    from{right: -600px}
+    to{right: 1400px}
 }
 
 .sun{
