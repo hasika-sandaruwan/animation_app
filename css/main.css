@@ -94,3 +94,9 @@
     width: 250px;
     transform: scaleX(-1);
 }
+
+.tree-1, .tree-2, .tree-3{
+    width: 200px;
+    position: absolute;
+    border: 1px solid red;
+}
