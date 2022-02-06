@@ -76,20 +76,32 @@
 .sun{
     width: 100px;
     position: absolute;
+    right: 350px;
 }
 .bird-1{
     width: 100px;
     position: absolute;
-    z-index: 3;
+    z-index: 2;
+    top: 150px;
+    left: -150px;
+    animation: a-bird-1 20s infinite linear;
+}
+@keyframes a-bird-1 {
+    from{left: -150px}
+    to{left: 1400px}
 }
 .bird-2{
     width: 100px;
     position: absolute;
-    z-index: 3;
+    z-index: 1;
     transform: scaleX(-1);
-    left: 250px;
+    right: -150px;
+    animation: a-bird-2 30s infinite linear;
 }
-
+@keyframes a-bird-2 {
+    from{right: -150px}
+    to{right: 1400px}
+}
 .road-outer{
     flex: 1;
     background-color: #2c3e50;
