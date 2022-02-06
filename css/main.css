@@ -6,7 +6,6 @@
 .main-outer{
     width: 100vw;
     height: 100vh;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
 }
@@ -111,7 +110,7 @@
 }
 .bottom-outer{
     height: 80px;
-    border: 1px solid red;
+    position: relative;
 }
 .line{
     border: 5px dashed white;
@@ -122,7 +121,7 @@
     width: 150px;
     top: -80px;
     z-index: 5;
-    animation: a-vehicle-1 10s infinite linear;
+    animation: a-vehicle-1 20s infinite linear;
 }
 @keyframes a-vehicle-1 {
     from{left: -150px}
@@ -131,16 +130,35 @@
 .vehicle-2{
     position: absolute;
     width: 250px;
+    top: -110px;
+    z-index: 5;
+    animation: a-vehicle-2 5s infinite linear;
+}
+@keyframes a-vehicle-2 {
+    from{left: -250px}
+    to{left: 1400px}
 }
 
 .vehicle-3{
     position: absolute;
     width: 250px;
+    z-index: 8;
     transform: scaleX(-1);
+    animation: a-vehicle-3 10s infinite linear;
 }
-
+@keyframes a-vehicle-3 {
+    from{right: -250px}
+    to{right: 1400px}
+}
 .tree-1, .tree-2, .tree-3{
     width: 200px;
     position: absolute;
-    border: 1px solid red;
+    top: -120px;
+    z-index: 9;
+}
+.tree-2{
+    left: 400px;
+}
+.tree-3{
+    left: 800px;
 }
