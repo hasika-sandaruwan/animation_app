@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-outer{
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid red;
+}
+.sky-outer{
+    width: 100vw;
+    height: 310px;
+    background-color: skyblue;
+}
+.mountain-1{
+    height: 310px;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+.mountain-2{
+    height: 310px;
+    position: absolute;
+    z-index: 1;
+}
+.mountain-3{
+    height: 310px;
+    position: absolute;
+    left: 350px;
+    z-index: 0;
+}
