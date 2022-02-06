@@ -14,6 +14,8 @@
     width: 100vw;
     height: 310px;
     background-color: skyblue;
+    position: relative;
+    overflow: hidden;
 }
 .mountain-1{
     height: 310px;
@@ -37,7 +39,16 @@
     height: 300px;
     position: absolute;
     z-index: 2;
+    right: -350px;
+    top: -50px;
+    animation: a-cloud-1 10s infinite linear;
 }
+
+@keyframes a-cloud-1 {
+    from{right: -350px}
+    to{right: 1400px}
+}
+
 .cloud-2{
     height: 250px;
     position: absolute;
